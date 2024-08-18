@@ -1,7 +1,7 @@
 # Jammming React App
 
 Deployed at:
-https://jamming-app123.netlify.com
+https://jammming-app123.netlify.app/
 
 This is a project done during the Codecademy Full-Stack course, focusing on the use of React to develop web applications.
 
