@@ -1,6 +1,6 @@
 import styles from "./components/App.module.css";
 import React, { useState } from "react";
-import Playlist from "./components/Playlist";
+// import Playlist from "./components/Playlist";
 import SearchBar from "./components/SearchBar";
 import SearchResults from "./components/SearchResults";
 import Tracklist from "./components/Tracklist";
@@ -29,9 +29,14 @@ function App() {
 
   const [tracklist, setTracklist] = useState({});
 
-  function handleAddTrack(e) {}
+  function handleAddTrack(e) {
+    setTracklist({});
+  }
 
-  function handleRemoveTrack(e) {}
+  function handleRemoveTrack(e) {
+    
+    setTracklist({});
+  }
 
   return (
     <>

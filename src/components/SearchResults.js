@@ -2,17 +2,6 @@ import React from 'react';
 import Track from './Track';
 import styles from './SearchResults.module.css';
 
-const searchResultsStyle = {
-    border: "red 1px solid", 
-    display: "flex", 
-    flexDirection: "column",
-    margin: "10px 10px"
-}
-
-const redBorderStyle = {
-    border: "red 1px solid"
-}
-
 function SearchResults(props){
     
     if (props.searchResults.length) {
