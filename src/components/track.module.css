@@ -1,0 +1,14 @@
+.songItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .addButton,
+  .removeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+  }
